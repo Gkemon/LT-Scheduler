@@ -18,19 +18,19 @@
 
         <item
             android:id="@+id/exams"
-            android:visible="false"
+            android:visible="true"
             android:icon="@drawable/baseline_school_black_18"
             android:title="@string/exams" />
 
         <item
             android:id="@+id/teachers"
-            android:visible="false"
+            android:visible="true"
             android:icon="@drawable/baseline_people_black_18"
             android:title="@string/teachers" />
 
         <item
             android:id="@+id/homework"
-            android:visible="false"
+            android:visible="true"
             android:icon="@drawable/baseline_book_black_18"
             android:title="@string/homeworks" />
         <item
