@@ -48,7 +48,7 @@
         <item
             android:id="@+id/company"
             android:icon="@android:drawable/ic_menu_info_details"
-            android:title="Company: MicroSumr Pty Ltd" />
+            android:title="@string/uits_programmer_hub" />
     </group>
 
 </menu>
