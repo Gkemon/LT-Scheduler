@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sabbir.ltscheduler.activities.NoteInfoActivity">
+    tools:context="com.gk.uits_scheduler.activities.NoteInfoActivity">
 
-    <com.sabbir.ltscheduler.utils.LinedEditText
+    <com.gk.uits_scheduler.utils.LinedEditText
         android:id="@+id/edittextNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

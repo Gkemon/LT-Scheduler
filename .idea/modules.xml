@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LT-Scheduler.iml" filepath="$PROJECT_DIR$/LT-Scheduler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LT-Scheduler.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LT-Scheduler.app.iml" />
     </modules>
   </component>
 </project>

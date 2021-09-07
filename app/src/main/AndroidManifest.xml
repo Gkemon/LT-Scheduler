@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sabbir.ltscheduler"
+    package="com.gk.uits_scheduler"
     >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.sabbir.ltscheduler.activities.MainActivity"
+            android:name="com.gk.uits_scheduler.activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -29,45 +29,45 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="com.sabbir.ltscheduler.activities.HomeworksActivity"
+            android:name="com.gk.uits_scheduler.activities.HomeworksActivity"
             android:label="@string/homeworks"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.MainActivity" />
+            android:parentActivityName="com.gk.uits_scheduler.activities.MainActivity" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.sabbir.ltscheduler.activities.HomeworksActivity" />
+            android:value="com.gk.uits_scheduler.activities.HomeworksActivity" />
 
         <activity
-            android:name="com.sabbir.ltscheduler.activities.NotesActivity"
+            android:name="com.gk.uits_scheduler.activities.NotesActivity"
             android:label="Notes"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.MainActivity" />
+            android:parentActivityName="com.gk.uits_scheduler.activities.MainActivity" />
         <activity
-            android:name="com.sabbir.ltscheduler.activities.NoteInfoActivity"
+            android:name="com.gk.uits_scheduler.activities.NoteInfoActivity"
             android:label="Notes"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.NotesActivity" />
+            android:parentActivityName="com.gk.uits_scheduler.activities.NotesActivity" />
         <activity
-            android:name="com.sabbir.ltscheduler.activities.TeachersActivity"
+            android:name="com.gk.uits_scheduler.activities.TeachersActivity"
             android:label="Teachers"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.MainActivity" />
+            android:parentActivityName="com.gk.uits_scheduler.activities.MainActivity" />
         <activity
-            android:name="com.sabbir.ltscheduler.activities.SettingsActivity"
+            android:name="com.gk.uits_scheduler.activities.SettingsActivity"
             android:label="Settings"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.MainActivity">
+            android:parentActivityName="com.gk.uits_scheduler.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sabbir.ltscheduler.activities.MainActivity" />
+                android:value="com.gk.uits_scheduler.activities.MainActivity" />
         </activity>
         <activity
-            android:name="com.sabbir.ltscheduler.activities.ExamsActivity"
+            android:name="com.gk.uits_scheduler.activities.ExamsActivity"
             android:label="Exams"
-            android:parentActivityName="com.sabbir.ltscheduler.activities.MainActivity" />
+            android:parentActivityName="com.gk.uits_scheduler.activities.MainActivity" />
 
         <receiver
-            android:name="com.sabbir.ltscheduler.utils.DailyReceiver"
+            android:name="com.gk.uits_scheduler.utils.DailyReceiver"
             android:enabled="true" />
 
         <receiver
-            android:name="com.sabbir.ltscheduler.utils.WakeUpAlarmReceiver"
+            android:name="com.gk.uits_scheduler.utils.WakeUpAlarmReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06d911d5ec478593c9f79f79f7de2901/facebook-places-4.29.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06d911d5ec478593c9f79f79f7de2901/facebook-places-4.29.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06d911d5ec478593c9f79f79f7de2901/facebook-places-4.29.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-places/4.29.0/a326fe822591c2af4d02ae708cd9509ea85910ab/facebook-places-4.29.0-javadoc.jar!/" />
